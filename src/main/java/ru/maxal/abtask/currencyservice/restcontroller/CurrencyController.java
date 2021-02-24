@@ -32,7 +32,7 @@ public class CurrencyController {
     private int limitForGIF;
     @Value("${search.gif.good_day}")
     private String goodExchangeRate;
-    @Value("${seach.gif.bad_day}")
+    @Value("${search.gif.bad_day}")
     private String badExchangeRate;
     @Value("${currency.days_ago}")
     private int daysAgo;
