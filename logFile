@@ -1,95 +1,140 @@
-2021-02-23 23:32:12.840  INFO 6084 --- [Test worker] r.m.a.c.c.CurrencyControllerTest         : Starting CurrencyControllerTest using Java 13.0.2 on maxxii with PID 6084 (started by maxxii in C:\Users\maxxii\IdeaProjects\currencyservice)
-2021-02-23 23:32:12.847  INFO 6084 --- [Test worker] r.m.a.c.c.CurrencyControllerTest         : No active profile set, falling back to default profiles: default
-2021-02-23 23:32:13.696  INFO 6084 --- [Test worker] o.s.cloud.context.scope.GenericScope     : BeanFactory id=48de1756-473a-3646-852c-ee1deb03234c
-2021-02-23 23:32:14.452  INFO 6084 --- [Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2021-02-23 23:32:14.557  INFO 6084 --- [Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2021-02-23 23:32:15.000  INFO 6084 --- [Test worker] r.m.a.c.c.CurrencyControllerTest         : Started CurrencyControllerTest in 2.609 seconds (JVM running for 4.526)
-2021-02-23 23:32:16.275  INFO 6084 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2021-02-23 23:32:21.743  INFO 2684 --- [restartedMain] r.m.a.c.CurrencyserviceApplication       : Starting CurrencyserviceApplication using Java 13.0.2 on maxxii with PID 2684 (C:\Users\maxxii\IdeaProjects\currencyservice\build\classes\java\main started by maxxii in C:\Users\maxxii\IdeaProjects\currencyservice)
-2021-02-23 23:32:21.745  INFO 2684 --- [restartedMain] r.m.a.c.CurrencyserviceApplication       : No active profile set, falling back to default profiles: default
-2021-02-23 23:32:21.771  INFO 2684 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2021-02-23 23:32:22.214  INFO 2684 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=2f18be5d-4ef3-3fb9-8644-b944f7e735ce
-2021-02-23 23:32:22.520  INFO 2684 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2021-02-23 23:32:22.526  INFO 2684 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-02-23 23:32:22.527  INFO 2684 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
-2021-02-23 23:32:22.594  INFO 2684 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2021-02-23 23:32:22.595  INFO 2684 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 823 ms
-2021-02-23 23:32:22.691  INFO 2684 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2021-02-23 23:32:22.787  INFO 2684 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2021-02-23 23:32:22.828  INFO 2684 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2021-02-23 23:32:23.012  INFO 2684 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2021-02-23 23:32:23.063  INFO 2684 --- [restartedMain] r.m.a.c.CurrencyserviceApplication       : Started CurrencyserviceApplication in 1.613 seconds (JVM running for 2.124)
-2021-02-23 23:32:25.432  INFO 2684 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-02-23 23:32:25.433  INFO 2684 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2021-02-23 23:32:25.434  INFO 2684 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2021-02-23 23:32:39.816  INFO 2684 --- [http-nio-8080-exec-3] r.m.a.c.r.CurrencyController             : Today rates for RUB:73.9985
-2021-02-23 23:32:39.816  INFO 2684 --- [http-nio-8080-exec-3] r.m.a.c.r.CurrencyController             : Yesterday rates for RUB:74.2695
-2021-02-23 23:32:53.704  INFO 2684 --- [http-nio-8080-exec-2] r.m.a.c.r.CurrencyController             : Today rates for RUB:73.9985
-2021-02-23 23:32:53.704  INFO 2684 --- [http-nio-8080-exec-2] r.m.a.c.r.CurrencyController             : Yesterday rates for RUB:74.2695
-2021-02-23 23:49:08.686  INFO 8108 --- [restartedMain] r.m.a.c.CurrencyserviceApplication       : Starting CurrencyserviceApplication using Java 13.0.2 on maxxii with PID 8108 (C:\Users\maxxii\IdeaProjects\currencyservice\build\classes\java\main started by maxxii in C:\Users\maxxii\IdeaProjects\currencyservice)
-2021-02-23 23:49:08.688  INFO 8108 --- [restartedMain] r.m.a.c.CurrencyserviceApplication       : No active profile set, falling back to default profiles: default
-2021-02-23 23:49:08.721  INFO 8108 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2021-02-23 23:49:09.267  INFO 8108 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=2f18be5d-4ef3-3fb9-8644-b944f7e735ce
-2021-02-23 23:49:09.714  INFO 8108 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2021-02-23 23:49:09.725  INFO 8108 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-02-23 23:49:09.725  INFO 8108 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
-2021-02-23 23:49:09.810  INFO 8108 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2021-02-23 23:49:09.811  INFO 8108 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1089 ms
-2021-02-23 23:49:09.934  INFO 8108 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2021-02-23 23:49:10.064  INFO 8108 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2021-02-23 23:49:10.107  INFO 8108 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2021-02-23 23:49:10.324  INFO 8108 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2021-02-23 23:49:10.376  INFO 8108 --- [restartedMain] r.m.a.c.CurrencyserviceApplication       : Started CurrencyserviceApplication in 2.047 seconds (JVM running for 2.639)
-2021-02-23 23:49:49.314  INFO 8108 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-02-23 23:49:49.314  INFO 8108 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2021-02-23 23:49:49.315  INFO 8108 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2021-02-23 23:51:09.185  INFO 8108 --- [http-nio-8080-exec-4] r.m.a.c.r.CurrencyController             : Today rates for RUB:73.9985
-2021-02-23 23:51:09.186  INFO 8108 --- [http-nio-8080-exec-4] r.m.a.c.r.CurrencyController             : Yesterday rates for RUB:74.2695
-2021-02-23 23:51:18.213  WARN 8108 --- [http-nio-8080-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [feign.FeignException$Forbidden: [403 Forbidden] during [GET] to [https://openexchangerates.org/api/historical/2021-02-22.json?app_id=df4a59409c144519a65daccdf5e0717b&base=eur] [ExchangeratesClient#yesterday(String,String)]: [{
-  "error": true,
-  "status": 403,
-  "message": "not_allowed",
-  "description": "Changing the API `base` currency is available for Developer, Enterprise and Unlimited plan clients. Please upgrade, or contact support@openexchangerates.org with any questions."
-}]]
-2021-02-23 23:52:14.777  INFO 8108 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2021-02-23 23:55:09.930  INFO 14840 --- [restartedMain] r.m.a.c.CurrencyserviceApplication       : Starting CurrencyserviceApplication using Java 13.0.2 on maxxii with PID 14840 (C:\Users\maxxii\IdeaProjects\currencyservice\build\classes\java\main started by maxxii in C:\Users\maxxii\IdeaProjects\currencyservice)
-2021-02-23 23:55:09.932  INFO 14840 --- [restartedMain] r.m.a.c.CurrencyserviceApplication       : No active profile set, falling back to default profiles: default
-2021-02-23 23:55:09.961  INFO 14840 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2021-02-23 23:55:10.414  INFO 14840 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=2f18be5d-4ef3-3fb9-8644-b944f7e735ce
-2021-02-23 23:55:10.700  INFO 14840 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2021-02-23 23:55:10.705  INFO 14840 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2021-02-23 23:55:10.705  INFO 14840 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
-2021-02-23 23:55:10.774  INFO 14840 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2021-02-23 23:55:10.774  INFO 14840 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 812 ms
-2021-02-23 23:55:10.868  INFO 14840 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2021-02-23 23:55:10.974  INFO 14840 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2021-02-23 23:55:11.009  INFO 14840 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2021-02-23 23:55:11.192  INFO 14840 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2021-02-23 23:55:11.241  INFO 14840 --- [restartedMain] r.m.a.c.CurrencyserviceApplication       : Started CurrencyserviceApplication in 1.631 seconds (JVM running for 2.069)
-2021-02-23 23:55:15.427  INFO 14840 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-02-23 23:55:15.428  INFO 14840 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2021-02-23 23:55:15.429  INFO 14840 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2021-02-23 23:55:16.340  WARN 14840 --- [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [feign.FeignException$Forbidden: [403 Forbidden] during [GET] to [https://openexchangerates.org/api/historical/2021-02-22.json?app_id=df4a59409c144519a65daccdf5e0717b&base=eur] [ExchangeratesClient#yesterday(String,String)]: [{
-  "error": true,
-  "status": 403,
-  "message": "not_allowed",
-  "description": "Changing the API `base` currency is available for Developer, Enterprise and Unlimited plan clients. Please upgrade, or contact support@openexchangerates.org with any questions."
-}]]
-2021-02-23 23:55:29.318  INFO 14840 --- [http-nio-8080-exec-3] r.m.a.c.r.CurrencyController             : Today rates for RUB:73.9985
-2021-02-23 23:55:29.319  INFO 14840 --- [http-nio-8080-exec-3] r.m.a.c.r.CurrencyController             : Yesterday rates for RUB:74.2695
-2021-02-23 23:55:37.241  INFO 14840 --- [http-nio-8080-exec-4] r.m.a.c.r.CurrencyController             : Today rates for RUB:73.9985
-2021-02-23 23:55:37.241  INFO 14840 --- [http-nio-8080-exec-4] r.m.a.c.r.CurrencyController             : Yesterday rates for RUB:74.2695
-2021-02-23 23:57:15.985  INFO 10912 --- [Test worker] r.m.a.c.c.CurrencyControllerTest         : Starting CurrencyControllerTest using Java 13.0.2 on maxxii with PID 10912 (started by maxxii in C:\Users\maxxii\IdeaProjects\currencyservice)
-2021-02-23 23:57:15.988  INFO 10912 --- [Test worker] r.m.a.c.c.CurrencyControllerTest         : No active profile set, falling back to default profiles: default
-2021-02-23 23:57:16.627  INFO 10912 --- [Test worker] o.s.cloud.context.scope.GenericScope     : BeanFactory id=48de1756-473a-3646-852c-ee1deb03234c
-2021-02-23 23:57:17.476  INFO 10912 --- [Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2021-02-23 23:57:17.574  INFO 10912 --- [Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2021-02-23 23:57:17.959  INFO 10912 --- [Test worker] r.m.a.c.c.CurrencyControllerTest         : Started CurrencyControllerTest in 2.367 seconds (JVM running for 3.959)
-2021-02-23 23:57:18.058  INFO 10912 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2021-02-23 23:57:48.878  INFO 2940 --- [Test worker] r.m.a.c.c.CurrencyControllerTest         : Starting CurrencyControllerTest using Java 13.0.2 on maxxii with PID 2940 (started by maxxii in C:\Users\maxxii\IdeaProjects\currencyservice)
-2021-02-23 23:57:48.880  INFO 2940 --- [Test worker] r.m.a.c.c.CurrencyControllerTest         : No active profile set, falling back to default profiles: default
-2021-02-23 23:57:49.636  INFO 2940 --- [Test worker] o.s.cloud.context.scope.GenericScope     : BeanFactory id=48de1756-473a-3646-852c-ee1deb03234c
-2021-02-23 23:57:50.498  INFO 2940 --- [Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2021-02-23 23:57:50.596  INFO 2940 --- [Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2021-02-23 23:57:50.983  INFO 2940 --- [Test worker] r.m.a.c.c.CurrencyControllerTest         : Started CurrencyControllerTest in 2.461 seconds (JVM running for 3.998)
-2021-02-23 23:57:51.724  INFO 2940 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-24 11:28:15.638  INFO 1164 --- [Test worker] r.m.a.c.c.CurrencyControllerTest         : Starting CurrencyControllerTest using Java 13.0.2 on maxxii with PID 1164 (started by maxxii in C:\Users\maxxii\IdeaProjects\currencyservice)
+2021-02-24 11:28:15.639  INFO 1164 --- [Test worker] r.m.a.c.c.CurrencyControllerTest         : No active profile set, falling back to default profiles: default
+2021-02-24 11:28:16.252  INFO 1164 --- [Test worker] o.s.cloud.context.scope.GenericScope     : BeanFactory id=48de1756-473a-3646-852c-ee1deb03234c
+2021-02-24 11:28:16.879  INFO 1164 --- [Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-24 11:28:16.967  INFO 1164 --- [Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-02-24 11:28:17.330  INFO 1164 --- [Test worker] r.m.a.c.c.CurrencyControllerTest         : Started CurrencyControllerTest in 2.012 seconds (JVM running for 2.981)
+2021-02-24 11:28:17.539  INFO 1164 --- [Test worker] org.eclipse.jetty.util.log               : Logging initialized @3190ms to org.eclipse.jetty.util.log.Slf4jLog
+2021-02-24 11:28:18.338  INFO 1164 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-24 11:35:47.693  INFO 10920 --- [Test worker] r.m.a.c.c.CurrencyControllerTest         : Starting CurrencyControllerTest using Java 13.0.2 on maxxii with PID 10920 (started by maxxii in C:\Users\maxxii\IdeaProjects\currencyservice)
+2021-02-24 11:35:47.694  INFO 10920 --- [Test worker] r.m.a.c.c.CurrencyControllerTest         : No active profile set, falling back to default profiles: default
+2021-02-24 11:35:48.403  INFO 10920 --- [Test worker] o.s.cloud.context.scope.GenericScope     : BeanFactory id=bd9a8060-fdf6-3aa2-b1e7-71aab42fde2f
+2021-02-24 11:35:48.986  INFO 10920 --- [Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-24 11:35:49.075  INFO 10920 --- [Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-02-24 11:35:49.324  INFO 10920 --- [Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-02-24 11:35:49.324  INFO 10920 --- [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-02-24 11:35:49.325  INFO 10920 --- [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2021-02-24 11:35:49.449  INFO 10920 --- [Test worker] r.m.a.c.c.CurrencyControllerTest         : Started CurrencyControllerTest in 2.069 seconds (JVM running for 3.03)
+2021-02-24 11:35:49.673  INFO 10920 --- [Test worker] org.eclipse.jetty.util.log               : Logging initialized @3253ms to org.eclipse.jetty.util.log.Slf4jLog
+2021-02-24 11:35:51.419  INFO 10920 --- [Test worker] r.m.a.c.r.CurrencyController             : Today rates for RUB:73.7625
+2021-02-24 11:35:51.421  INFO 10920 --- [Test worker] r.m.a.c.r.CurrencyController             : Yesterday rates for RUB:74.1059
+2021-02-24 11:35:51.688  INFO 10920 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-24 11:38:44.048  INFO 1276 --- [Test worker] r.m.a.c.c.CurrencyControllerTest         : Starting CurrencyControllerTest using Java 13.0.2 on maxxii with PID 1276 (started by maxxii in C:\Users\maxxii\IdeaProjects\currencyservice)
+2021-02-24 11:38:44.049  INFO 1276 --- [Test worker] r.m.a.c.c.CurrencyControllerTest         : No active profile set, falling back to default profiles: default
+2021-02-24 11:38:44.775  INFO 1276 --- [Test worker] o.s.cloud.context.scope.GenericScope     : BeanFactory id=bd9a8060-fdf6-3aa2-b1e7-71aab42fde2f
+2021-02-24 11:38:45.357  INFO 1276 --- [Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-24 11:38:45.440  INFO 1276 --- [Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-02-24 11:38:45.661  INFO 1276 --- [Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-02-24 11:38:45.661  INFO 1276 --- [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-02-24 11:38:45.662  INFO 1276 --- [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2021-02-24 11:38:45.784  INFO 1276 --- [Test worker] r.m.a.c.c.CurrencyControllerTest         : Started CurrencyControllerTest in 2.056 seconds (JVM running for 2.988)
+2021-02-24 11:38:45.997  INFO 1276 --- [Test worker] org.eclipse.jetty.util.log               : Logging initialized @3199ms to org.eclipse.jetty.util.log.Slf4jLog
+2021-02-24 11:38:48.187  INFO 1276 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-24 11:42:14.010  INFO 1796 --- [Test worker] r.m.a.c.c.CurrencyControllerTest         : Starting CurrencyControllerTest using Java 13.0.2 on maxxii with PID 1796 (started by maxxii in C:\Users\maxxii\IdeaProjects\currencyservice)
+2021-02-24 11:42:14.012  INFO 1796 --- [Test worker] r.m.a.c.c.CurrencyControllerTest         : No active profile set, falling back to default profiles: default
+2021-02-24 11:42:14.717  INFO 1796 --- [Test worker] o.s.cloud.context.scope.GenericScope     : BeanFactory id=bd9a8060-fdf6-3aa2-b1e7-71aab42fde2f
+2021-02-24 11:42:15.297  INFO 1796 --- [Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-24 11:42:15.390  INFO 1796 --- [Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-02-24 11:42:15.614  INFO 1796 --- [Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-02-24 11:42:15.615  INFO 1796 --- [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-02-24 11:42:15.616  INFO 1796 --- [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2021-02-24 11:42:15.748  INFO 1796 --- [Test worker] r.m.a.c.c.CurrencyControllerTest         : Started CurrencyControllerTest in 2.07 seconds (JVM running for 3.001)
+2021-02-24 11:42:15.975  INFO 1796 --- [Test worker] org.eclipse.jetty.util.log               : Logging initialized @3227ms to org.eclipse.jetty.util.log.Slf4jLog
+2021-02-24 11:42:17.547  INFO 1796 --- [Test worker] r.m.a.c.r.CurrencyController             : Today rates for RUB:73.7625
+2021-02-24 11:42:17.548  INFO 1796 --- [Test worker] r.m.a.c.r.CurrencyController             : Yesterday rates for RUB:74.1059
+2021-02-24 11:42:17.747  INFO 1796 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-24 11:42:56.206  INFO 14852 --- [Test worker] r.m.a.c.c.CurrencyControllerTest         : Starting CurrencyControllerTest using Java 13.0.2 on maxxii with PID 14852 (started by maxxii in C:\Users\maxxii\IdeaProjects\currencyservice)
+2021-02-24 11:42:56.208  INFO 14852 --- [Test worker] r.m.a.c.c.CurrencyControllerTest         : No active profile set, falling back to default profiles: default
+2021-02-24 11:42:56.892  INFO 14852 --- [Test worker] o.s.cloud.context.scope.GenericScope     : BeanFactory id=bd9a8060-fdf6-3aa2-b1e7-71aab42fde2f
+2021-02-24 11:42:57.515  INFO 14852 --- [Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-24 11:42:57.615  INFO 14852 --- [Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-02-24 11:42:57.889  INFO 14852 --- [Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-02-24 11:42:57.889  INFO 14852 --- [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-02-24 11:42:57.890  INFO 14852 --- [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2021-02-24 11:42:58.026  INFO 14852 --- [Test worker] r.m.a.c.c.CurrencyControllerTest         : Started CurrencyControllerTest in 2.169 seconds (JVM running for 3.462)
+2021-02-24 11:42:58.284  INFO 14852 --- [Test worker] org.eclipse.jetty.util.log               : Logging initialized @3718ms to org.eclipse.jetty.util.log.Slf4jLog
+2021-02-24 11:42:59.957  INFO 14852 --- [Test worker] r.m.a.c.r.CurrencyController             : Today rates for RUB:73.7625
+2021-02-24 11:42:59.958  INFO 14852 --- [Test worker] r.m.a.c.r.CurrencyController             : Yesterday rates for RUB:74.1059
+2021-02-24 11:43:00.112  INFO 14852 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-24 11:43:32.046  INFO 13048 --- [Test worker] r.m.a.c.c.CurrencyControllerTest         : Starting CurrencyControllerTest using Java 13.0.2 on maxxii with PID 13048 (started by maxxii in C:\Users\maxxii\IdeaProjects\currencyservice)
+2021-02-24 11:43:32.047  INFO 13048 --- [Test worker] r.m.a.c.c.CurrencyControllerTest         : No active profile set, falling back to default profiles: default
+2021-02-24 11:43:32.766  INFO 13048 --- [Test worker] o.s.cloud.context.scope.GenericScope     : BeanFactory id=bd9a8060-fdf6-3aa2-b1e7-71aab42fde2f
+2021-02-24 11:43:33.379  INFO 13048 --- [Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-24 11:43:33.467  INFO 13048 --- [Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-02-24 11:43:33.698  INFO 13048 --- [Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-02-24 11:43:33.698  INFO 13048 --- [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-02-24 11:43:33.699  INFO 13048 --- [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2021-02-24 11:43:33.828  INFO 13048 --- [Test worker] r.m.a.c.c.CurrencyControllerTest         : Started CurrencyControllerTest in 2.124 seconds (JVM running for 3.076)
+2021-02-24 11:43:34.056  INFO 13048 --- [Test worker] org.eclipse.jetty.util.log               : Logging initialized @3303ms to org.eclipse.jetty.util.log.Slf4jLog
+2021-02-24 11:43:35.593  INFO 13048 --- [Test worker] r.m.a.c.r.CurrencyController             : Today rates for RUB:73.7625
+2021-02-24 11:43:35.595  INFO 13048 --- [Test worker] r.m.a.c.r.CurrencyController             : Yesterday rates for RUB:74.1059
+2021-02-24 11:43:35.747  INFO 13048 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-24 11:47:51.642  INFO 12696 --- [Test worker] r.m.a.c.c.CurrencyControllerTest         : Starting CurrencyControllerTest using Java 13.0.2 on maxxii with PID 12696 (started by maxxii in C:\Users\maxxii\IdeaProjects\currencyservice)
+2021-02-24 11:47:51.643  INFO 12696 --- [Test worker] r.m.a.c.c.CurrencyControllerTest         : No active profile set, falling back to default profiles: default
+2021-02-24 11:47:52.280  INFO 12696 --- [Test worker] o.s.cloud.context.scope.GenericScope     : BeanFactory id=bd9a8060-fdf6-3aa2-b1e7-71aab42fde2f
+2021-02-24 11:47:52.884  INFO 12696 --- [Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-24 11:47:52.975  INFO 12696 --- [Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-02-24 11:47:53.213  INFO 12696 --- [Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-02-24 11:47:53.213  INFO 12696 --- [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-02-24 11:47:53.214  INFO 12696 --- [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2021-02-24 11:47:53.341  INFO 12696 --- [Test worker] r.m.a.c.c.CurrencyControllerTest         : Started CurrencyControllerTest in 2.018 seconds (JVM running for 2.968)
+2021-02-24 11:47:53.557  INFO 12696 --- [Test worker] org.eclipse.jetty.util.log               : Logging initialized @3184ms to org.eclipse.jetty.util.log.Slf4jLog
+2021-02-24 11:47:55.682  INFO 12696 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-24 11:49:28.434  INFO 1312 --- [Test worker] r.m.a.c.c.CurrencyControllerTest         : Starting CurrencyControllerTest using Java 13.0.2 on maxxii with PID 1312 (started by maxxii in C:\Users\maxxii\IdeaProjects\currencyservice)
+2021-02-24 11:49:28.435  INFO 1312 --- [Test worker] r.m.a.c.c.CurrencyControllerTest         : No active profile set, falling back to default profiles: default
+2021-02-24 11:49:29.047  INFO 1312 --- [Test worker] o.s.cloud.context.scope.GenericScope     : BeanFactory id=bd9a8060-fdf6-3aa2-b1e7-71aab42fde2f
+2021-02-24 11:49:29.643  INFO 1312 --- [Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-24 11:49:29.731  INFO 1312 --- [Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-02-24 11:49:29.942  INFO 1312 --- [Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-02-24 11:49:29.942  INFO 1312 --- [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-02-24 11:49:29.943  INFO 1312 --- [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2021-02-24 11:49:30.079  INFO 1312 --- [Test worker] r.m.a.c.c.CurrencyControllerTest         : Started CurrencyControllerTest in 1.958 seconds (JVM running for 2.888)
+2021-02-24 11:49:30.383  INFO 1312 --- [Test worker] org.eclipse.jetty.util.log               : Logging initialized @3191ms to org.eclipse.jetty.util.log.Slf4jLog
+2021-02-24 11:49:32.169  INFO 1312 --- [Test worker] r.m.a.c.r.CurrencyController             : Today rates for RUB:73.7625
+2021-02-24 11:49:32.171  INFO 1312 --- [Test worker] r.m.a.c.r.CurrencyController             : Yesterday rates for RUB:74.1059
+2021-02-24 11:49:32.466  INFO 1312 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-24 11:50:32.307  INFO 16028 --- [Test worker] r.m.a.c.c.CurrencyControllerTest         : Starting CurrencyControllerTest using Java 13.0.2 on maxxii with PID 16028 (started by maxxii in C:\Users\maxxii\IdeaProjects\currencyservice)
+2021-02-24 11:50:32.308  INFO 16028 --- [Test worker] r.m.a.c.c.CurrencyControllerTest         : No active profile set, falling back to default profiles: default
+2021-02-24 11:50:32.936  INFO 16028 --- [Test worker] o.s.cloud.context.scope.GenericScope     : BeanFactory id=bd9a8060-fdf6-3aa2-b1e7-71aab42fde2f
+2021-02-24 11:50:33.509  INFO 16028 --- [Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-24 11:50:33.598  INFO 16028 --- [Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-02-24 11:50:33.831  INFO 16028 --- [Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-02-24 11:50:33.832  INFO 16028 --- [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-02-24 11:50:33.833  INFO 16028 --- [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2021-02-24 11:50:33.986  INFO 16028 --- [Test worker] r.m.a.c.c.CurrencyControllerTest         : Started CurrencyControllerTest in 2.006 seconds (JVM running for 2.962)
+2021-02-24 11:50:34.251  INFO 16028 --- [Test worker] org.eclipse.jetty.util.log               : Logging initialized @3225ms to org.eclipse.jetty.util.log.Slf4jLog
+2021-02-24 11:50:36.268  INFO 16028 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-24 11:51:00.488  INFO 15240 --- [Test worker] r.m.a.c.c.CurrencyControllerTest         : Starting CurrencyControllerTest using Java 13.0.2 on maxxii with PID 15240 (started by maxxii in C:\Users\maxxii\IdeaProjects\currencyservice)
+2021-02-24 11:51:00.489  INFO 15240 --- [Test worker] r.m.a.c.c.CurrencyControllerTest         : No active profile set, falling back to default profiles: default
+2021-02-24 11:51:01.199  INFO 15240 --- [Test worker] o.s.cloud.context.scope.GenericScope     : BeanFactory id=bd9a8060-fdf6-3aa2-b1e7-71aab42fde2f
+2021-02-24 11:51:01.767  INFO 15240 --- [Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-24 11:51:01.849  INFO 15240 --- [Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-02-24 11:51:02.079  INFO 15240 --- [Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-02-24 11:51:02.079  INFO 15240 --- [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-02-24 11:51:02.080  INFO 15240 --- [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2021-02-24 11:51:02.211  INFO 15240 --- [Test worker] r.m.a.c.c.CurrencyControllerTest         : Started CurrencyControllerTest in 2.047 seconds (JVM running for 2.989)
+2021-02-24 11:51:02.414  INFO 15240 --- [Test worker] org.eclipse.jetty.util.log               : Logging initialized @3191ms to org.eclipse.jetty.util.log.Slf4jLog
+2021-02-24 11:51:04.242  INFO 15240 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-24 11:51:18.758  INFO 9108 --- [Test worker] r.m.a.c.c.CurrencyControllerTest         : Starting CurrencyControllerTest using Java 13.0.2 on maxxii with PID 9108 (started by maxxii in C:\Users\maxxii\IdeaProjects\currencyservice)
+2021-02-24 11:51:18.759  INFO 9108 --- [Test worker] r.m.a.c.c.CurrencyControllerTest         : No active profile set, falling back to default profiles: default
+2021-02-24 11:51:19.368  INFO 9108 --- [Test worker] o.s.cloud.context.scope.GenericScope     : BeanFactory id=bd9a8060-fdf6-3aa2-b1e7-71aab42fde2f
+2021-02-24 11:51:19.992  INFO 9108 --- [Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-24 11:51:20.076  INFO 9108 --- [Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-02-24 11:51:20.310  INFO 9108 --- [Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-02-24 11:51:20.310  INFO 9108 --- [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-02-24 11:51:20.311  INFO 9108 --- [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2021-02-24 11:51:20.447  INFO 9108 --- [Test worker] r.m.a.c.c.CurrencyControllerTest         : Started CurrencyControllerTest in 2.005 seconds (JVM running for 2.958)
+2021-02-24 11:51:20.673  INFO 9108 --- [Test worker] org.eclipse.jetty.util.log               : Logging initialized @3183ms to org.eclipse.jetty.util.log.Slf4jLog
+2021-02-24 11:51:22.472  INFO 9108 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-24 11:52:44.856  INFO 4000 --- [Test worker] r.m.a.c.c.CurrencyControllerTest         : Starting CurrencyControllerTest using Java 13.0.2 on maxxii with PID 4000 (started by maxxii in C:\Users\maxxii\IdeaProjects\currencyservice)
+2021-02-24 11:52:44.857  INFO 4000 --- [Test worker] r.m.a.c.c.CurrencyControllerTest         : No active profile set, falling back to default profiles: default
+2021-02-24 11:52:45.493  INFO 4000 --- [Test worker] o.s.cloud.context.scope.GenericScope     : BeanFactory id=bd9a8060-fdf6-3aa2-b1e7-71aab42fde2f
+2021-02-24 11:52:46.101  INFO 4000 --- [Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-24 11:52:46.181  INFO 4000 --- [Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-02-24 11:52:46.411  INFO 4000 --- [Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-02-24 11:52:46.411  INFO 4000 --- [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-02-24 11:52:46.412  INFO 4000 --- [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2021-02-24 11:52:46.540  INFO 4000 --- [Test worker] r.m.a.c.c.CurrencyControllerTest         : Started CurrencyControllerTest in 2.022 seconds (JVM running for 2.987)
+2021-02-24 11:52:48.025  INFO 4000 --- [Test worker] r.m.a.c.r.CurrencyController             : Today rates for RUB:73.7625
+2021-02-24 11:52:48.027  INFO 4000 --- [Test worker] r.m.a.c.r.CurrencyController             : Yesterday rates for RUB:74.1059
+2021-02-24 11:52:50.071  INFO 4000 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
