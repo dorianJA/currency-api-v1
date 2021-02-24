@@ -138,3 +138,55 @@
 2021-02-24 11:52:48.025  INFO 4000 --- [Test worker] r.m.a.c.r.CurrencyController             : Today rates for RUB:73.7625
 2021-02-24 11:52:48.027  INFO 4000 --- [Test worker] r.m.a.c.r.CurrencyController             : Yesterday rates for RUB:74.1059
 2021-02-24 11:52:50.071  INFO 4000 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-24 12:03:19.113  INFO 3524 --- [Test worker] r.m.a.c.c.CurrencyControllerTest         : Starting CurrencyControllerTest using Java 13.0.2 on maxxii with PID 3524 (started by maxxii in C:\Users\maxxii\IdeaProjects\currencyservice)
+2021-02-24 12:03:19.114  INFO 3524 --- [Test worker] r.m.a.c.c.CurrencyControllerTest         : No active profile set, falling back to default profiles: default
+2021-02-24 12:03:19.831  INFO 3524 --- [Test worker] o.s.cloud.context.scope.GenericScope     : BeanFactory id=bd9a8060-fdf6-3aa2-b1e7-71aab42fde2f
+2021-02-24 12:03:20.487  INFO 3524 --- [Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-24 12:03:20.590  INFO 3524 --- [Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-02-24 12:03:20.841  INFO 3524 --- [Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2021-02-24 12:03:20.841  INFO 3524 --- [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2021-02-24 12:03:20.842  INFO 3524 --- [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2021-02-24 12:03:20.972  INFO 3524 --- [Test worker] r.m.a.c.c.CurrencyControllerTest         : Started CurrencyControllerTest in 2.218 seconds (JVM running for 3.301)
+2021-02-24 12:03:22.496  INFO 3524 --- [Test worker] r.m.a.c.r.CurrencyController             : Today rates for RUB:73.6045
+2021-02-24 12:03:22.497  INFO 3524 --- [Test worker] r.m.a.c.r.CurrencyController             : Yesterday rates for RUB:74.1059
+2021-02-24 12:03:24.280  INFO 3524 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-24 12:03:53.246  INFO 4624 --- [restartedMain] r.m.a.c.CurrencyserviceApplication       : Starting CurrencyserviceApplication using Java 13.0.2 on maxxii with PID 4624 (C:\Users\maxxii\IdeaProjects\currencyservice\build\classes\java\main started by maxxii in C:\Users\maxxii\IdeaProjects\currencyservice)
+2021-02-24 12:03:53.248  INFO 4624 --- [restartedMain] r.m.a.c.CurrencyserviceApplication       : No active profile set, falling back to default profiles: default
+2021-02-24 12:03:53.273  INFO 4624 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-24 12:03:53.273  INFO 4624 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-24 12:03:53.692  INFO 4624 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=2f18be5d-4ef3-3fb9-8644-b944f7e735ce
+2021-02-24 12:03:53.976  INFO 4624 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-02-24 12:03:53.981  INFO 4624 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-24 12:03:53.981  INFO 4624 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-02-24 12:03:54.046  INFO 4624 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-24 12:03:54.046  INFO 4624 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 772 ms
+2021-02-24 12:03:54.136  INFO 4624 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-02-24 12:03:54.229  INFO 4624 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-24 12:03:54.264  INFO 4624 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-02-24 12:03:54.443  INFO 4624 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-24 12:03:54.492  INFO 4624 --- [restartedMain] r.m.a.c.CurrencyserviceApplication       : Started CurrencyserviceApplication in 1.573 seconds (JVM running for 2.099)
+2021-02-24 12:03:57.074  INFO 4624 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-24 12:03:57.076  INFO 4624 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-02-24 12:03:57.076  INFO 4624 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2021-02-24 12:04:04.187  INFO 4624 --- [http-nio-8080-exec-3] r.m.a.c.r.CurrencyController             : Today rates for RUB:73.6045
+2021-02-24 12:04:04.188  INFO 4624 --- [http-nio-8080-exec-3] r.m.a.c.r.CurrencyController             : Yesterday rates for RUB:74.1059
+2021-02-24 12:04:22.106  INFO 4624 --- [http-nio-8080-exec-4] r.m.a.c.r.CurrencyController             : Today rates for RUB:73.6045
+2021-02-24 12:04:22.107  INFO 4624 --- [http-nio-8080-exec-4] r.m.a.c.r.CurrencyController             : Yesterday rates for RUB:74.1059
+2021-02-24 12:22:59.925  INFO 12528 --- [restartedMain] r.m.a.c.CurrencyserviceApplication       : Starting CurrencyserviceApplication using Java 13.0.2 on maxxii with PID 12528 (C:\Users\maxxii\IdeaProjects\currencyservice\build\classes\java\main started by maxxii in C:\Users\maxxii\IdeaProjects\currencyservice)
+2021-02-24 12:22:59.927  INFO 12528 --- [restartedMain] r.m.a.c.CurrencyserviceApplication       : No active profile set, falling back to default profiles: default
+2021-02-24 12:22:59.953  INFO 12528 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-24 12:22:59.953  INFO 12528 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-24 12:23:00.376  INFO 12528 --- [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=2f18be5d-4ef3-3fb9-8644-b944f7e735ce
+2021-02-24 12:23:00.649  INFO 12528 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-02-24 12:23:00.655  INFO 12528 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-24 12:23:00.655  INFO 12528 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-02-24 12:23:00.720  INFO 12528 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-24 12:23:00.721  INFO 12528 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 767 ms
+2021-02-24 12:23:00.812  INFO 12528 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-02-24 12:23:00.905  INFO 12528 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-24 12:23:00.941  INFO 12528 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-02-24 12:23:01.127  INFO 12528 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-24 12:23:01.176  INFO 12528 --- [restartedMain] r.m.a.c.CurrencyserviceApplication       : Started CurrencyserviceApplication in 1.557 seconds (JVM running for 1.972)
+2021-02-24 12:23:04.004  INFO 12528 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-24 12:23:04.005  INFO 12528 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-02-24 12:23:04.006  INFO 12528 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
