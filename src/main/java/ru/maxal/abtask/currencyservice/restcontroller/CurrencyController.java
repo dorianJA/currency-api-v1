@@ -52,7 +52,7 @@ public class CurrencyController {
     @GetMapping("/{сurrency}")
     public ResponseEntity<?> usd(@PathVariable("сurrency") String curr) {
         CurrencyDto current = currencyClient.getCurrency(curr);
-        CurrencyDto yesterday = currencyClient.yesterday(LocalDate.now().minusDays(daysAgo) + ".json", curr);
+        CurrencyDto yesterday = currencyClient.currencyFromDate(LocalDate.now().minusDays(daysAgo) + ".json", curr);
         Map<String, Double> todayRates = current.getRates();
         Map<String, Double> yesterdayRates = yesterday.getRates();
         logger.info("Today rates for "+yourCurrency+":"+todayRates.get(yourCurrency));
@@ -66,7 +66,7 @@ public class CurrencyController {
 
     @GetMapping
     public ResponseEntity<?> getAll() {
-        return ResponseEntity.ok(currencyClient.all());
+        return ResponseEntity.ok(currencyClient.allCurrency());
     }
 
 

@@ -69,7 +69,7 @@ public class CurrencyControllerTest {
 
     @Test
     public void allExchangerates() throws Exception {
-        CurrencyDto all = exchangeratesClient.all();
+        CurrencyDto all = exchangeratesClient.allCurrency();
         Map<String, Double> rates = all.getRates();
         assertFalse(rates.isEmpty());
 
