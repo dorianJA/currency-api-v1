@@ -20,7 +20,7 @@ public interface ExchangeratesClient {
         @GetMapping("/historical/{date}?app_id="+"${openexchangerates.app_id}")
         CurrencyDto currencyFromDate(@PathVariable("date") String date, @RequestParam("base") String currency);
 
-        @GetMapping("//latest.json?app_id="+"${openexchangerates.app_id}")
+        @GetMapping("/latest.json?app_id="+"${openexchangerates.app_id}")
         CurrencyDto allCurrency();
 
 }
